@@ -1,0 +1,2065 @@
+Electric Version 8.05
+--------------- 0 --------------
+  Sat Oct 06 23:01:41 EDT 2018
+ProcessKeyBinding 401 when=1538881301665 modifiers=80 code=11 char=ffff false false
+--------------- 1 --------------
+  Sat Oct 06 23:01:41 EDT 2018
+Menu Activated: File | Open Library...
+--------------- 2 --------------
+  Sat Oct 06 23:01:42 EDT 2018
+ProcessKeyBinding 400 when=1538881301731 modifiers=80 code=0 char=f false false
+--------------- 3 --------------
+  Sat Oct 06 23:02:36 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | ALS: Simulate Current Cell
+--------------- 4 --------------
+  Sat Oct 06 23:02:58 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | Restore Stimuli from Disk...
+--------------- 5 --------------
+  Sat Oct 06 23:05:32 EDT 2018
+Menu Activated: Edit | Modes | Edit | Toggle Zoom
+--------------- 6 --------------
+  Sat Oct 06 23:05:43 EDT 2018
+ProcessKeyBinding 401 when=1538881543529 modifiers=80 code=11 char=ffff false false
+--------------- 7 --------------
+  Sat Oct 06 23:05:43 EDT 2018
+ProcessKeyBinding 401 when=1538881543747 modifiers=80 code=5a char=1a false false
+--------------- 8 --------------
+  Sat Oct 06 23:05:43 EDT 2018
+Menu Activated: Edit | Undo
+--------------- 9 --------------
+  Sat Oct 06 23:05:43 EDT 2018
+ProcessKeyBinding 400 when=1538881543747 modifiers=80 code=0 char=1a false false
+--------------- 10 --------------
+  Sat Oct 06 23:05:44 EDT 2018
+ProcessKeyBinding 402 when=1538881543912 modifiers=80 code=5a char=1a false false
+--------------- 11 --------------
+  Sat Oct 06 23:05:44 EDT 2018
+ProcessKeyBinding 402 when=1538881543937 modifiers=0 code=11 char=ffff false false
+--------------- 12 --------------
+  Sat Oct 06 23:05:45 EDT 2018
+ProcessKeyBinding 401 when=1538881545067 modifiers=80 code=11 char=ffff false false
+--------------- 13 --------------
+  Sat Oct 06 23:05:45 EDT 2018
+ProcessKeyBinding 401 when=1538881545263 modifiers=80 code=5a char=1a false false
+--------------- 14 --------------
+  Sat Oct 06 23:05:45 EDT 2018
+Menu Activated: Edit | Undo
+--------------- 15 --------------
+  Sat Oct 06 23:05:45 EDT 2018
+java.lang.NullPointerException
+	at com.sun.electric.database.network.NetworkTool.getNetlist(NetworkTool.java:218)
+	at com.sun.electric.database.network.NetworkTool.acquireUserNetlist(NetworkTool.java:159)
+	at com.sun.electric.database.hierarchy.Cell.acquireUserNetlist(Cell.java:3710)
+	at com.sun.electric.tool.user.waveform.WaveformWindow.getHighlightedNetworks(WaveformWindow.java:1933)
+	at com.sun.electric.tool.user.Highlighter.getHighlightedNetworks(Highlighter.java:857)
+	at com.sun.electric.tool.user.waveform.WaveformWindow.findSelectedSignals(WaveformWindow.java:2701)
+	at com.sun.electric.tool.user.waveform.WaveformWindow.crossProbeEditWindowToWaveform(WaveformWindow.java:2595)
+	at com.sun.electric.tool.user.waveform.WaveformWindow.access$2700(WaveformWindow.java:153)
+	at com.sun.electric.tool.user.waveform.WaveformWindow$WaveformWindowHighlightListener.highlightChanged(WaveformWindow.java:4522)
+	at com.sun.electric.tool.user.Highlighter.fireHighlightChanged(Highlighter.java:639)
+	at com.sun.electric.tool.user.Highlighter.finished(Highlighter.java:418)
+	at com.sun.electric.tool.user.ui.EditWindow.finishedHighlighting(EditWindow.java:3075)
+	at com.sun.electric.tool.user.UserInterfaceMain$SavedHighlights.restore(UserInterfaceMain.java:727)
+	at com.sun.electric.tool.user.UserInterfaceMain$SavedHighlights.access$500(UserInterfaceMain.java:711)
+	at com.sun.electric.tool.user.UserInterfaceMain.restoreHighlights(UserInterfaceMain.java:560)
+	at com.sun.electric.database.change.Undo.endChanges(Undo.java:107)
+	at com.sun.electric.tool.Client$EJobEvent.run(Client.java:142)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+	at java.desktop/java.awt.EventQueue.access$600(EventQueue.java:97)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+	at com.sun.electric.tool.user.UserInterfaceMain$EventProcessor.dispatchEvent(UserInterfaceMain.java:843)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+--------------- 16 --------------
+  Sat Oct 06 23:05:45 EDT 2018
+ProcessKeyBinding 400 when=1538881545263 modifiers=80 code=0 char=1a false false
+--------------- 17 --------------
+  Sat Oct 06 23:06:08 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | ALS: Simulate Current Cell
+--------------- 18 --------------
+  Sat Oct 06 23:06:08 EDT 2018
+java.lang.NullPointerException
+	at java.base/java.io.ByteArrayInputStream.<init>(ByteArrayInputStream.java:106)
+	at com.sun.electric.tool.EJob.deserializeToServer(EJob.java:121)
+	at com.sun.electric.tool.EThread.run(EThread.java:75)
+--------------- 19 --------------
+  Sat Oct 06 23:06:14 EDT 2018
+Menu Activated: Edit | Modes | Edit | Toggle Pan
+--------------- 20 --------------
+  Sat Oct 06 23:06:19 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | ALS: Simulate Current Cell
+--------------- 21 --------------
+  Sat Oct 06 23:06:27 EDT 2018
+Menu Activated: File | Open Library...
+--------------- 22 --------------
+  Sat Oct 06 23:06:35 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | ALS: Simulate Current Cell
+--------------- 23 --------------
+  Sat Oct 06 23:06:41 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | ALS: Simulate Current Cell
+--------------- 24 --------------
+  Sat Oct 06 23:06:52 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | Restore Stimuli from Disk...
+--------------- 25 --------------
+  Sat Oct 06 23:08:41 EDT 2018
+Menu Activated: Edit | Modes | Edit | Click/Zoom/Wire
+--------------- 26 --------------
+  Sat Oct 06 23:08:50 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 27 --------------
+  Sat Oct 06 23:08:52 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 28 --------------
+  Sat Oct 06 23:08:53 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 29 --------------
+  Sat Oct 06 23:08:54 EDT 2018
+Menu Activated: Edit | Modes | Edit | Toggle Pan
+--------------- 30 --------------
+  Sat Oct 06 23:08:56 EDT 2018
+Menu Activated: Edit | Modes | Movement | Half motion
+--------------- 31 --------------
+  Sat Oct 06 23:08:59 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 32 --------------
+  Sat Oct 06 23:08:59 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 33 --------------
+  Sat Oct 06 23:09:00 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 34 --------------
+  Sat Oct 06 23:09:04 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 35 --------------
+  Sat Oct 06 23:09:05 EDT 2018
+Menu Activated: Edit | Modes | Movement | Quarter motion
+--------------- 36 --------------
+  Sat Oct 06 23:09:06 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 37 --------------
+  Sat Oct 06 23:09:08 EDT 2018
+Menu Activated: Edit | Modes | Edit | Click/Zoom/Wire
+--------------- 38 --------------
+  Sat Oct 06 23:09:11 EDT 2018
+Menu Activated: Edit | Modes | Edit | Toggle Pan
+--------------- 39 --------------
+  Sat Oct 06 23:09:17 EDT 2018
+Menu Activated: Edit | Modes | Edit | Click/Zoom/Wire
+--------------- 40 --------------
+  Sat Oct 06 23:10:10 EDT 2018
+ProcessKeyBinding 402 when=1538881810631 modifiers=0 code=27 char=ffff false false
+--------------- 41 --------------
+  Sat Oct 06 23:10:11 EDT 2018
+ProcessKeyBinding 402 when=1538881811437 modifiers=0 code=25 char=ffff false false
+--------------- 42 --------------
+  Sat Oct 06 23:10:14 EDT 2018
+ProcessKeyBinding 401 when=1538881814899 modifiers=0 code=35 char=35(5) false false
+--------------- 43 --------------
+  Sat Oct 06 23:10:14 EDT 2018
+Menu Activated: Shortcuts | Wire to M5
+--------------- 44 --------------
+  Sat Oct 06 23:10:14 EDT 2018
+ProcessKeyBinding 400 when=1538881814899 modifiers=0 code=0 char=35(5) false false
+--------------- 45 --------------
+  Sat Oct 06 23:10:15 EDT 2018
+ProcessKeyBinding 402 when=1538881815079 modifiers=0 code=35 char=35(5) false false
+--------------- 46 --------------
+  Sat Oct 06 23:10:15 EDT 2018
+ProcessKeyBinding 401 when=1538881815656 modifiers=0 code=36 char=36(6) false false
+--------------- 47 --------------
+  Sat Oct 06 23:10:15 EDT 2018
+Menu Activated: Shortcuts | Wire to M6
+--------------- 48 --------------
+  Sat Oct 06 23:10:15 EDT 2018
+ProcessKeyBinding 400 when=1538881815656 modifiers=0 code=0 char=36(6) false false
+--------------- 49 --------------
+  Sat Oct 06 23:10:15 EDT 2018
+ProcessKeyBinding 402 when=1538881815806 modifiers=0 code=36 char=36(6) false false
+--------------- 50 --------------
+  Sat Oct 06 23:10:16 EDT 2018
+ProcessKeyBinding 401 when=1538881816641 modifiers=80 code=11 char=ffff false false
+--------------- 51 --------------
+  Sat Oct 06 23:10:16 EDT 2018
+ProcessKeyBinding 401 when=1538881816710 modifiers=80 code=35 char=35(5) false false
+--------------- 52 --------------
+  Sat Oct 06 23:10:16 EDT 2018
+Menu Activated: Window | Special Pan | Center Cursor
+--------------- 53 --------------
+  Sat Oct 06 23:10:16 EDT 2018
+ProcessKeyBinding 400 when=1538881816710 modifiers=80 code=0 char=35(5) false false
+--------------- 54 --------------
+  Sat Oct 06 23:10:16 EDT 2018
+ProcessKeyBinding 402 when=1538881816924 modifiers=80 code=35 char=35(5) false false
+--------------- 55 --------------
+  Sat Oct 06 23:10:17 EDT 2018
+ProcessKeyBinding 401 when=1538881817054 modifiers=80 code=35 char=35(5) false false
+--------------- 56 --------------
+  Sat Oct 06 23:10:17 EDT 2018
+Menu Activated: Window | Special Pan | Center Cursor
+--------------- 57 --------------
+  Sat Oct 06 23:10:17 EDT 2018
+ProcessKeyBinding 400 when=1538881817054 modifiers=80 code=0 char=35(5) false false
+--------------- 58 --------------
+  Sat Oct 06 23:10:17 EDT 2018
+ProcessKeyBinding 402 when=1538881817246 modifiers=80 code=35 char=35(5) false false
+--------------- 59 --------------
+  Sat Oct 06 23:10:17 EDT 2018
+ProcessKeyBinding 401 when=1538881817346 modifiers=80 code=35 char=35(5) false false
+--------------- 60 --------------
+  Sat Oct 06 23:10:17 EDT 2018
+Menu Activated: Window | Special Pan | Center Cursor
+--------------- 61 --------------
+  Sat Oct 06 23:10:17 EDT 2018
+ProcessKeyBinding 400 when=1538881817346 modifiers=80 code=0 char=35(5) false false
+--------------- 62 --------------
+  Sat Oct 06 23:10:17 EDT 2018
+ProcessKeyBinding 402 when=1538881817516 modifiers=80 code=35 char=35(5) false false
+--------------- 63 --------------
+  Sat Oct 06 23:10:17 EDT 2018
+ProcessKeyBinding 402 when=1538881817675 modifiers=0 code=11 char=ffff false false
+--------------- 64 --------------
+  Sat Oct 06 23:10:17 EDT 2018
+ProcessKeyBinding 401 when=1538881817950 modifiers=80 code=11 char=ffff false false
+--------------- 65 --------------
+  Sat Oct 06 23:10:18 EDT 2018
+ProcessKeyBinding 401 when=1538881818072 modifiers=80 code=36 char=36(6) false false
+--------------- 66 --------------
+  Sat Oct 06 23:10:18 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 67 --------------
+  Sat Oct 06 23:10:18 EDT 2018
+ProcessKeyBinding 400 when=1538881818072 modifiers=80 code=0 char=36(6) false false
+--------------- 68 --------------
+  Sat Oct 06 23:10:18 EDT 2018
+ProcessKeyBinding 402 when=1538881818216 modifiers=80 code=36 char=36(6) false false
+--------------- 69 --------------
+  Sat Oct 06 23:10:18 EDT 2018
+ProcessKeyBinding 401 when=1538881818300 modifiers=80 code=36 char=36(6) false false
+--------------- 70 --------------
+  Sat Oct 06 23:10:18 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 71 --------------
+  Sat Oct 06 23:10:18 EDT 2018
+ProcessKeyBinding 400 when=1538881818300 modifiers=80 code=0 char=36(6) false false
+--------------- 72 --------------
+  Sat Oct 06 23:10:18 EDT 2018
+ProcessKeyBinding 402 when=1538881818455 modifiers=80 code=36 char=36(6) false false
+--------------- 73 --------------
+  Sat Oct 06 23:10:19 EDT 2018
+ProcessKeyBinding 401 when=1538881819380 modifiers=80 code=36 char=36(6) false false
+--------------- 74 --------------
+  Sat Oct 06 23:10:19 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 75 --------------
+  Sat Oct 06 23:10:19 EDT 2018
+ProcessKeyBinding 400 when=1538881819380 modifiers=80 code=0 char=36(6) false false
+--------------- 76 --------------
+  Sat Oct 06 23:10:19 EDT 2018
+ProcessKeyBinding 402 when=1538881819567 modifiers=80 code=36 char=36(6) false false
+--------------- 77 --------------
+  Sat Oct 06 23:10:20 EDT 2018
+ProcessKeyBinding 401 when=1538881820180 modifiers=80 code=35 char=35(5) false false
+--------------- 78 --------------
+  Sat Oct 06 23:10:20 EDT 2018
+Menu Activated: Window | Special Pan | Center Cursor
+--------------- 79 --------------
+  Sat Oct 06 23:10:20 EDT 2018
+ProcessKeyBinding 400 when=1538881820180 modifiers=80 code=0 char=35(5) false false
+--------------- 80 --------------
+  Sat Oct 06 23:10:20 EDT 2018
+ProcessKeyBinding 402 when=1538881820361 modifiers=80 code=35 char=35(5) false false
+--------------- 81 --------------
+  Sat Oct 06 23:10:20 EDT 2018
+ProcessKeyBinding 401 when=1538881820524 modifiers=80 code=35 char=35(5) false false
+--------------- 82 --------------
+  Sat Oct 06 23:10:20 EDT 2018
+Menu Activated: Window | Special Pan | Center Cursor
+--------------- 83 --------------
+  Sat Oct 06 23:10:20 EDT 2018
+ProcessKeyBinding 400 when=1538881820524 modifiers=80 code=0 char=35(5) false false
+--------------- 84 --------------
+  Sat Oct 06 23:10:20 EDT 2018
+ProcessKeyBinding 402 when=1538881820711 modifiers=80 code=35 char=35(5) false false
+--------------- 85 --------------
+  Sat Oct 06 23:10:21 EDT 2018
+ProcessKeyBinding 401 when=1538881821949 modifiers=80 code=30 char=30(0) false false
+--------------- 86 --------------
+  Sat Oct 06 23:10:21 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 87 --------------
+  Sat Oct 06 23:10:21 EDT 2018
+ProcessKeyBinding 400 when=1538881821949 modifiers=80 code=0 char=30(0) false false
+--------------- 88 --------------
+  Sat Oct 06 23:10:22 EDT 2018
+ProcessKeyBinding 402 when=1538881822076 modifiers=80 code=30 char=30(0) false false
+--------------- 89 --------------
+  Sat Oct 06 23:10:22 EDT 2018
+ProcessKeyBinding 401 when=1538881822398 modifiers=80 code=30 char=30(0) false false
+--------------- 90 --------------
+  Sat Oct 06 23:10:22 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 91 --------------
+  Sat Oct 06 23:10:22 EDT 2018
+ProcessKeyBinding 400 when=1538881822398 modifiers=80 code=0 char=30(0) false false
+--------------- 92 --------------
+  Sat Oct 06 23:10:22 EDT 2018
+ProcessKeyBinding 402 when=1538881822580 modifiers=80 code=30 char=30(0) false false
+--------------- 93 --------------
+  Sat Oct 06 23:10:23 EDT 2018
+ProcessKeyBinding 401 when=1538881823351 modifiers=80 code=30 char=30(0) false false
+--------------- 94 --------------
+  Sat Oct 06 23:10:23 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 95 --------------
+  Sat Oct 06 23:10:23 EDT 2018
+ProcessKeyBinding 400 when=1538881823351 modifiers=80 code=0 char=30(0) false false
+--------------- 96 --------------
+  Sat Oct 06 23:10:23 EDT 2018
+ProcessKeyBinding 402 when=1538881823554 modifiers=80 code=30 char=30(0) false false
+--------------- 97 --------------
+  Sat Oct 06 23:10:26 EDT 2018
+ProcessKeyBinding 401 when=1538881826079 modifiers=80 code=35 char=35(5) false false
+--------------- 98 --------------
+  Sat Oct 06 23:10:26 EDT 2018
+Menu Activated: Window | Special Pan | Center Cursor
+--------------- 99 --------------
+  Sat Oct 06 23:10:26 EDT 2018
+ProcessKeyBinding 400 when=1538881826079 modifiers=80 code=0 char=35(5) false false
+--------------- 100 --------------
+  Sat Oct 06 23:10:26 EDT 2018
+ProcessKeyBinding 402 when=1538881826228 modifiers=80 code=35 char=35(5) false false
+--------------- 101 --------------
+  Sat Oct 06 23:10:26 EDT 2018
+ProcessKeyBinding 401 when=1538881826565 modifiers=80 code=36 char=36(6) false false
+--------------- 102 --------------
+  Sat Oct 06 23:10:26 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 103 --------------
+  Sat Oct 06 23:10:26 EDT 2018
+ProcessKeyBinding 400 when=1538881826565 modifiers=80 code=0 char=36(6) false false
+--------------- 104 --------------
+  Sat Oct 06 23:10:26 EDT 2018
+ProcessKeyBinding 402 when=1538881826725 modifiers=80 code=36 char=36(6) false false
+--------------- 105 --------------
+  Sat Oct 06 23:10:27 EDT 2018
+ProcessKeyBinding 401 when=1538881827201 modifiers=80 code=36 char=36(6) false false
+--------------- 106 --------------
+  Sat Oct 06 23:10:27 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 107 --------------
+  Sat Oct 06 23:10:27 EDT 2018
+ProcessKeyBinding 400 when=1538881827201 modifiers=80 code=0 char=36(6) false false
+--------------- 108 --------------
+  Sat Oct 06 23:10:27 EDT 2018
+ProcessKeyBinding 402 when=1538881827318 modifiers=80 code=36 char=36(6) false false
+--------------- 109 --------------
+  Sat Oct 06 23:10:27 EDT 2018
+ProcessKeyBinding 401 when=1538881827619 modifiers=80 code=36 char=36(6) false false
+--------------- 110 --------------
+  Sat Oct 06 23:10:27 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 111 --------------
+  Sat Oct 06 23:10:27 EDT 2018
+ProcessKeyBinding 400 when=1538881827619 modifiers=80 code=0 char=36(6) false false
+--------------- 112 --------------
+  Sat Oct 06 23:10:27 EDT 2018
+ProcessKeyBinding 402 when=1538881827752 modifiers=80 code=36 char=36(6) false false
+--------------- 113 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+ProcessKeyBinding 401 when=1538881828069 modifiers=80 code=36 char=36(6) false false
+--------------- 114 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 115 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+ProcessKeyBinding 400 when=1538881828069 modifiers=80 code=0 char=36(6) false false
+--------------- 116 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+ProcessKeyBinding 402 when=1538881828218 modifiers=80 code=36 char=36(6) false false
+--------------- 117 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+ProcessKeyBinding 401 when=1538881828509 modifiers=80 code=36 char=36(6) false false
+--------------- 118 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 119 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+ProcessKeyBinding 400 when=1538881828509 modifiers=80 code=0 char=36(6) false false
+--------------- 120 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+ProcessKeyBinding 402 when=1538881828695 modifiers=80 code=36 char=36(6) false false
+--------------- 121 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+ProcessKeyBinding 401 when=1538881828943 modifiers=80 code=36 char=36(6) false false
+--------------- 122 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 123 --------------
+  Sat Oct 06 23:10:28 EDT 2018
+ProcessKeyBinding 400 when=1538881828943 modifiers=80 code=0 char=36(6) false false
+--------------- 124 --------------
+  Sat Oct 06 23:10:29 EDT 2018
+ProcessKeyBinding 402 when=1538881829103 modifiers=80 code=36 char=36(6) false false
+--------------- 125 --------------
+  Sat Oct 06 23:10:29 EDT 2018
+ProcessKeyBinding 401 when=1538881829414 modifiers=80 code=36 char=36(6) false false
+--------------- 126 --------------
+  Sat Oct 06 23:10:29 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 127 --------------
+  Sat Oct 06 23:10:29 EDT 2018
+ProcessKeyBinding 400 when=1538881829414 modifiers=80 code=0 char=36(6) false false
+--------------- 128 --------------
+  Sat Oct 06 23:10:29 EDT 2018
+ProcessKeyBinding 402 when=1538881829526 modifiers=80 code=36 char=36(6) false false
+--------------- 129 --------------
+  Sat Oct 06 23:10:29 EDT 2018
+ProcessKeyBinding 401 when=1538881829806 modifiers=80 code=36 char=36(6) false false
+--------------- 130 --------------
+  Sat Oct 06 23:10:29 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 131 --------------
+  Sat Oct 06 23:10:29 EDT 2018
+ProcessKeyBinding 400 when=1538881829806 modifiers=80 code=0 char=36(6) false false
+--------------- 132 --------------
+  Sat Oct 06 23:10:29 EDT 2018
+ProcessKeyBinding 402 when=1538881829908 modifiers=80 code=36 char=36(6) false false
+--------------- 133 --------------
+  Sat Oct 06 23:10:30 EDT 2018
+ProcessKeyBinding 401 when=1538881830203 modifiers=80 code=36 char=36(6) false false
+--------------- 134 --------------
+  Sat Oct 06 23:10:30 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 135 --------------
+  Sat Oct 06 23:10:30 EDT 2018
+ProcessKeyBinding 400 when=1538881830203 modifiers=80 code=0 char=36(6) false false
+--------------- 136 --------------
+  Sat Oct 06 23:10:30 EDT 2018
+ProcessKeyBinding 402 when=1538881830321 modifiers=80 code=36 char=36(6) false false
+--------------- 137 --------------
+  Sat Oct 06 23:10:30 EDT 2018
+ProcessKeyBinding 401 when=1538881830435 modifiers=80 code=36 char=36(6) false false
+--------------- 138 --------------
+  Sat Oct 06 23:10:30 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 139 --------------
+  Sat Oct 06 23:10:30 EDT 2018
+ProcessKeyBinding 400 when=1538881830435 modifiers=80 code=0 char=36(6) false false
+--------------- 140 --------------
+  Sat Oct 06 23:10:30 EDT 2018
+ProcessKeyBinding 402 when=1538881830528 modifiers=80 code=36 char=36(6) false false
+--------------- 141 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881830997 modifiers=80 code=36 char=36(6) false false
+--------------- 142 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 143 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881830997 modifiers=80 code=0 char=36(6) false false
+--------------- 144 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831498 modifiers=80 code=36 char=36(6) false false
+--------------- 145 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 146 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831498 modifiers=80 code=0 char=36(6) false false
+--------------- 147 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831534 modifiers=80 code=36 char=36(6) false false
+--------------- 148 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 149 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831534 modifiers=80 code=0 char=36(6) false false
+--------------- 150 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831571 modifiers=80 code=36 char=36(6) false false
+--------------- 151 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 152 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831571 modifiers=80 code=0 char=36(6) false false
+--------------- 153 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831602 modifiers=80 code=36 char=36(6) false false
+--------------- 154 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 155 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831602 modifiers=80 code=0 char=36(6) false false
+--------------- 156 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831633 modifiers=80 code=36 char=36(6) false false
+--------------- 157 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 158 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831633 modifiers=80 code=0 char=36(6) false false
+--------------- 159 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831668 modifiers=80 code=36 char=36(6) false false
+--------------- 160 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 161 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831668 modifiers=80 code=0 char=36(6) false false
+--------------- 162 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831700 modifiers=80 code=36 char=36(6) false false
+--------------- 163 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 164 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831700 modifiers=80 code=0 char=36(6) false false
+--------------- 165 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831733 modifiers=80 code=36 char=36(6) false false
+--------------- 166 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 167 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831733 modifiers=80 code=0 char=36(6) false false
+--------------- 168 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831763 modifiers=80 code=36 char=36(6) false false
+--------------- 169 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 170 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831763 modifiers=80 code=0 char=36(6) false false
+--------------- 171 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831798 modifiers=80 code=36 char=36(6) false false
+--------------- 172 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 173 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831798 modifiers=80 code=0 char=36(6) false false
+--------------- 174 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831831 modifiers=80 code=36 char=36(6) false false
+--------------- 175 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 176 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831831 modifiers=80 code=0 char=36(6) false false
+--------------- 177 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831862 modifiers=80 code=36 char=36(6) false false
+--------------- 178 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 179 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831862 modifiers=80 code=0 char=36(6) false false
+--------------- 180 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831892 modifiers=80 code=36 char=36(6) false false
+--------------- 181 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 182 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831892 modifiers=80 code=0 char=36(6) false false
+--------------- 183 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831922 modifiers=80 code=36 char=36(6) false false
+--------------- 184 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 185 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831922 modifiers=80 code=0 char=36(6) false false
+--------------- 186 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831952 modifiers=80 code=36 char=36(6) false false
+--------------- 187 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 188 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831952 modifiers=80 code=0 char=36(6) false false
+--------------- 189 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 401 when=1538881831991 modifiers=80 code=36 char=36(6) false false
+--------------- 190 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 191 --------------
+  Sat Oct 06 23:10:31 EDT 2018
+ProcessKeyBinding 400 when=1538881831991 modifiers=80 code=0 char=36(6) false false
+--------------- 192 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832022 modifiers=80 code=36 char=36(6) false false
+--------------- 193 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 194 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832022 modifiers=80 code=0 char=36(6) false false
+--------------- 195 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832052 modifiers=80 code=36 char=36(6) false false
+--------------- 196 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 197 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832052 modifiers=80 code=0 char=36(6) false false
+--------------- 198 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832083 modifiers=80 code=36 char=36(6) false false
+--------------- 199 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 200 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832083 modifiers=80 code=0 char=36(6) false false
+--------------- 201 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832113 modifiers=80 code=36 char=36(6) false false
+--------------- 202 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 203 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832113 modifiers=80 code=0 char=36(6) false false
+--------------- 204 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832143 modifiers=80 code=36 char=36(6) false false
+--------------- 205 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 206 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832143 modifiers=80 code=0 char=36(6) false false
+--------------- 207 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832174 modifiers=80 code=36 char=36(6) false false
+--------------- 208 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 209 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832174 modifiers=80 code=0 char=36(6) false false
+--------------- 210 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832204 modifiers=80 code=36 char=36(6) false false
+--------------- 211 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 212 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832204 modifiers=80 code=0 char=36(6) false false
+--------------- 213 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832239 modifiers=80 code=36 char=36(6) false false
+--------------- 214 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 215 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832239 modifiers=80 code=0 char=36(6) false false
+--------------- 216 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832270 modifiers=80 code=36 char=36(6) false false
+--------------- 217 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 218 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832270 modifiers=80 code=0 char=36(6) false false
+--------------- 219 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832305 modifiers=80 code=36 char=36(6) false false
+--------------- 220 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 221 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832305 modifiers=80 code=0 char=36(6) false false
+--------------- 222 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832342 modifiers=80 code=36 char=36(6) false false
+--------------- 223 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 224 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832342 modifiers=80 code=0 char=36(6) false false
+--------------- 225 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832378 modifiers=80 code=36 char=36(6) false false
+--------------- 226 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 227 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832378 modifiers=80 code=0 char=36(6) false false
+--------------- 228 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832409 modifiers=80 code=36 char=36(6) false false
+--------------- 229 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 230 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832409 modifiers=80 code=0 char=36(6) false false
+--------------- 231 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832440 modifiers=80 code=36 char=36(6) false false
+--------------- 232 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 233 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832440 modifiers=80 code=0 char=36(6) false false
+--------------- 234 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832470 modifiers=80 code=36 char=36(6) false false
+--------------- 235 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 236 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832470 modifiers=80 code=0 char=36(6) false false
+--------------- 237 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832501 modifiers=80 code=36 char=36(6) false false
+--------------- 238 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 239 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832501 modifiers=80 code=0 char=36(6) false false
+--------------- 240 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832538 modifiers=80 code=36 char=36(6) false false
+--------------- 241 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 242 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832538 modifiers=80 code=0 char=36(6) false false
+--------------- 243 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832568 modifiers=80 code=36 char=36(6) false false
+--------------- 244 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 245 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832568 modifiers=80 code=0 char=36(6) false false
+--------------- 246 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832599 modifiers=80 code=36 char=36(6) false false
+--------------- 247 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 248 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832599 modifiers=80 code=0 char=36(6) false false
+--------------- 249 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832638 modifiers=80 code=36 char=36(6) false false
+--------------- 250 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 251 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832638 modifiers=80 code=0 char=36(6) false false
+--------------- 252 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832668 modifiers=80 code=36 char=36(6) false false
+--------------- 253 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 254 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832668 modifiers=80 code=0 char=36(6) false false
+--------------- 255 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832707 modifiers=80 code=36 char=36(6) false false
+--------------- 256 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 257 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832707 modifiers=80 code=0 char=36(6) false false
+--------------- 258 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832737 modifiers=80 code=36 char=36(6) false false
+--------------- 259 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 260 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832737 modifiers=80 code=0 char=36(6) false false
+--------------- 261 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832767 modifiers=80 code=36 char=36(6) false false
+--------------- 262 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 263 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832767 modifiers=80 code=0 char=36(6) false false
+--------------- 264 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832803 modifiers=80 code=36 char=36(6) false false
+--------------- 265 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 266 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832803 modifiers=80 code=0 char=36(6) false false
+--------------- 267 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832833 modifiers=80 code=36 char=36(6) false false
+--------------- 268 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 269 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832833 modifiers=80 code=0 char=36(6) false false
+--------------- 270 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832864 modifiers=80 code=36 char=36(6) false false
+--------------- 271 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 272 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832864 modifiers=80 code=0 char=36(6) false false
+--------------- 273 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832894 modifiers=80 code=36 char=36(6) false false
+--------------- 274 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 275 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832894 modifiers=80 code=0 char=36(6) false false
+--------------- 276 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832924 modifiers=80 code=36 char=36(6) false false
+--------------- 277 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 278 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832924 modifiers=80 code=0 char=36(6) false false
+--------------- 279 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832960 modifiers=80 code=36 char=36(6) false false
+--------------- 280 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 281 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832960 modifiers=80 code=0 char=36(6) false false
+--------------- 282 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 401 when=1538881832992 modifiers=80 code=36 char=36(6) false false
+--------------- 283 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 284 --------------
+  Sat Oct 06 23:10:32 EDT 2018
+ProcessKeyBinding 400 when=1538881832992 modifiers=80 code=0 char=36(6) false false
+--------------- 285 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 401 when=1538881833023 modifiers=80 code=36 char=36(6) false false
+--------------- 286 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 287 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 400 when=1538881833023 modifiers=80 code=0 char=36(6) false false
+--------------- 288 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 401 when=1538881833058 modifiers=80 code=36 char=36(6) false false
+--------------- 289 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 290 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 400 when=1538881833058 modifiers=80 code=0 char=36(6) false false
+--------------- 291 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 401 when=1538881833089 modifiers=80 code=36 char=36(6) false false
+--------------- 292 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 293 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 400 when=1538881833089 modifiers=80 code=0 char=36(6) false false
+--------------- 294 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 401 when=1538881833119 modifiers=80 code=36 char=36(6) false false
+--------------- 295 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 296 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 400 when=1538881833119 modifiers=80 code=0 char=36(6) false false
+--------------- 297 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 401 when=1538881833153 modifiers=80 code=36 char=36(6) false false
+--------------- 298 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 299 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 400 when=1538881833153 modifiers=80 code=0 char=36(6) false false
+--------------- 300 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 401 when=1538881833183 modifiers=80 code=36 char=36(6) false false
+--------------- 301 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 302 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 400 when=1538881833183 modifiers=80 code=0 char=36(6) false false
+--------------- 303 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 402 when=1538881833212 modifiers=80 code=36 char=36(6) false false
+--------------- 304 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 401 when=1538881833904 modifiers=80 code=30 char=30(0) false false
+--------------- 305 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 306 --------------
+  Sat Oct 06 23:10:33 EDT 2018
+ProcessKeyBinding 400 when=1538881833904 modifiers=80 code=0 char=30(0) false false
+--------------- 307 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834405 modifiers=80 code=30 char=30(0) false false
+--------------- 308 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 309 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834405 modifiers=80 code=0 char=30(0) false false
+--------------- 310 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834439 modifiers=80 code=30 char=30(0) false false
+--------------- 311 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 312 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834439 modifiers=80 code=0 char=30(0) false false
+--------------- 313 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834469 modifiers=80 code=30 char=30(0) false false
+--------------- 314 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 315 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834469 modifiers=80 code=0 char=30(0) false false
+--------------- 316 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834499 modifiers=80 code=30 char=30(0) false false
+--------------- 317 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 318 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834499 modifiers=80 code=0 char=30(0) false false
+--------------- 319 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834533 modifiers=80 code=30 char=30(0) false false
+--------------- 320 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 321 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834533 modifiers=80 code=0 char=30(0) false false
+--------------- 322 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834565 modifiers=80 code=30 char=30(0) false false
+--------------- 323 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 324 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834565 modifiers=80 code=0 char=30(0) false false
+--------------- 325 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834596 modifiers=80 code=30 char=30(0) false false
+--------------- 326 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 327 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834596 modifiers=80 code=0 char=30(0) false false
+--------------- 328 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834627 modifiers=80 code=30 char=30(0) false false
+--------------- 329 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 330 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834627 modifiers=80 code=0 char=30(0) false false
+--------------- 331 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834657 modifiers=80 code=30 char=30(0) false false
+--------------- 332 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 333 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834657 modifiers=80 code=0 char=30(0) false false
+--------------- 334 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834687 modifiers=80 code=30 char=30(0) false false
+--------------- 335 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 336 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834687 modifiers=80 code=0 char=30(0) false false
+--------------- 337 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834722 modifiers=80 code=30 char=30(0) false false
+--------------- 338 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 339 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834722 modifiers=80 code=0 char=30(0) false false
+--------------- 340 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834753 modifiers=80 code=30 char=30(0) false false
+--------------- 341 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 342 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834753 modifiers=80 code=0 char=30(0) false false
+--------------- 343 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834784 modifiers=80 code=30 char=30(0) false false
+--------------- 344 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 345 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834784 modifiers=80 code=0 char=30(0) false false
+--------------- 346 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834820 modifiers=80 code=30 char=30(0) false false
+--------------- 347 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 348 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834820 modifiers=80 code=0 char=30(0) false false
+--------------- 349 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834850 modifiers=80 code=30 char=30(0) false false
+--------------- 350 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 351 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834850 modifiers=80 code=0 char=30(0) false false
+--------------- 352 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834886 modifiers=80 code=30 char=30(0) false false
+--------------- 353 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 354 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834886 modifiers=80 code=0 char=30(0) false false
+--------------- 355 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834919 modifiers=80 code=30 char=30(0) false false
+--------------- 356 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 357 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834919 modifiers=80 code=0 char=30(0) false false
+--------------- 358 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834950 modifiers=80 code=30 char=30(0) false false
+--------------- 359 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 360 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834950 modifiers=80 code=0 char=30(0) false false
+--------------- 361 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 401 when=1538881834982 modifiers=80 code=30 char=30(0) false false
+--------------- 362 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 363 --------------
+  Sat Oct 06 23:10:34 EDT 2018
+ProcessKeyBinding 400 when=1538881834982 modifiers=80 code=0 char=30(0) false false
+--------------- 364 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835016 modifiers=80 code=30 char=30(0) false false
+--------------- 365 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 366 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835016 modifiers=80 code=0 char=30(0) false false
+--------------- 367 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835046 modifiers=80 code=30 char=30(0) false false
+--------------- 368 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 369 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835046 modifiers=80 code=0 char=30(0) false false
+--------------- 370 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835083 modifiers=80 code=30 char=30(0) false false
+--------------- 371 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 372 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835083 modifiers=80 code=0 char=30(0) false false
+--------------- 373 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835118 modifiers=80 code=30 char=30(0) false false
+--------------- 374 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 375 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835118 modifiers=80 code=0 char=30(0) false false
+--------------- 376 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835148 modifiers=80 code=30 char=30(0) false false
+--------------- 377 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 378 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835148 modifiers=80 code=0 char=30(0) false false
+--------------- 379 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835184 modifiers=80 code=30 char=30(0) false false
+--------------- 380 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 381 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835184 modifiers=80 code=0 char=30(0) false false
+--------------- 382 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835218 modifiers=80 code=30 char=30(0) false false
+--------------- 383 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 384 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835218 modifiers=80 code=0 char=30(0) false false
+--------------- 385 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835249 modifiers=80 code=30 char=30(0) false false
+--------------- 386 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 387 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835249 modifiers=80 code=0 char=30(0) false false
+--------------- 388 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835280 modifiers=80 code=30 char=30(0) false false
+--------------- 389 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 390 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835280 modifiers=80 code=0 char=30(0) false false
+--------------- 391 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835312 modifiers=80 code=30 char=30(0) false false
+--------------- 392 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 393 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835312 modifiers=80 code=0 char=30(0) false false
+--------------- 394 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835343 modifiers=80 code=30 char=30(0) false false
+--------------- 395 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 396 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835343 modifiers=80 code=0 char=30(0) false false
+--------------- 397 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835373 modifiers=80 code=30 char=30(0) false false
+--------------- 398 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 399 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835373 modifiers=80 code=0 char=30(0) false false
+--------------- 400 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835412 modifiers=80 code=30 char=30(0) false false
+--------------- 401 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 402 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835412 modifiers=80 code=0 char=30(0) false false
+--------------- 403 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835449 modifiers=80 code=30 char=30(0) false false
+--------------- 404 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 405 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835449 modifiers=80 code=0 char=30(0) false false
+--------------- 406 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835479 modifiers=80 code=30 char=30(0) false false
+--------------- 407 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 408 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835479 modifiers=80 code=0 char=30(0) false false
+--------------- 409 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835510 modifiers=80 code=30 char=30(0) false false
+--------------- 410 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 411 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835510 modifiers=80 code=0 char=30(0) false false
+--------------- 412 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835542 modifiers=80 code=30 char=30(0) false false
+--------------- 413 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 414 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835542 modifiers=80 code=0 char=30(0) false false
+--------------- 415 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 401 when=1538881835572 modifiers=80 code=30 char=30(0) false false
+--------------- 416 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 417 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 400 when=1538881835572 modifiers=80 code=0 char=30(0) false false
+--------------- 418 --------------
+  Sat Oct 06 23:10:35 EDT 2018
+ProcessKeyBinding 402 when=1538881835572 modifiers=80 code=30 char=30(0) false false
+--------------- 419 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+ProcessKeyBinding 401 when=1538881837387 modifiers=80 code=36 char=36(6) false false
+--------------- 420 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 421 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+ProcessKeyBinding 400 when=1538881837387 modifiers=80 code=0 char=36(6) false false
+--------------- 422 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+ProcessKeyBinding 401 when=1538881837887 modifiers=80 code=36 char=36(6) false false
+--------------- 423 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 424 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+ProcessKeyBinding 400 when=1538881837887 modifiers=80 code=0 char=36(6) false false
+--------------- 425 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+ProcessKeyBinding 401 when=1538881837921 modifiers=80 code=36 char=36(6) false false
+--------------- 426 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 427 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+ProcessKeyBinding 400 when=1538881837921 modifiers=80 code=0 char=36(6) false false
+--------------- 428 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+ProcessKeyBinding 401 when=1538881837959 modifiers=80 code=36 char=36(6) false false
+--------------- 429 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 430 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+ProcessKeyBinding 400 when=1538881837959 modifiers=80 code=0 char=36(6) false false
+--------------- 431 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+ProcessKeyBinding 401 when=1538881837989 modifiers=80 code=36 char=36(6) false false
+--------------- 432 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 433 --------------
+  Sat Oct 06 23:10:37 EDT 2018
+ProcessKeyBinding 400 when=1538881837989 modifiers=80 code=0 char=36(6) false false
+--------------- 434 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 401 when=1538881838020 modifiers=80 code=36 char=36(6) false false
+--------------- 435 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 436 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 400 when=1538881838020 modifiers=80 code=0 char=36(6) false false
+--------------- 437 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 401 when=1538881838054 modifiers=80 code=36 char=36(6) false false
+--------------- 438 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 439 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 400 when=1538881838054 modifiers=80 code=0 char=36(6) false false
+--------------- 440 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 401 when=1538881838084 modifiers=80 code=36 char=36(6) false false
+--------------- 441 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 442 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 400 when=1538881838084 modifiers=80 code=0 char=36(6) false false
+--------------- 443 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 401 when=1538881838115 modifiers=80 code=36 char=36(6) false false
+--------------- 444 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 445 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 400 when=1538881838115 modifiers=80 code=0 char=36(6) false false
+--------------- 446 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 401 when=1538881838150 modifiers=80 code=36 char=36(6) false false
+--------------- 447 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 448 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 400 when=1538881838150 modifiers=80 code=0 char=36(6) false false
+--------------- 449 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 401 when=1538881838182 modifiers=80 code=36 char=36(6) false false
+--------------- 450 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 451 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 400 when=1538881838182 modifiers=80 code=0 char=36(6) false false
+--------------- 452 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 401 when=1538881838219 modifiers=80 code=36 char=36(6) false false
+--------------- 453 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 454 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 400 when=1538881838219 modifiers=80 code=0 char=36(6) false false
+--------------- 455 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 401 when=1538881838249 modifiers=80 code=36 char=36(6) false false
+--------------- 456 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 457 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 400 when=1538881838249 modifiers=80 code=0 char=36(6) false false
+--------------- 458 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 401 when=1538881838280 modifiers=80 code=36 char=36(6) false false
+--------------- 459 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 460 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 400 when=1538881838280 modifiers=80 code=0 char=36(6) false false
+--------------- 461 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 402 when=1538881838310 modifiers=80 code=36 char=36(6) false false
+--------------- 462 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 401 when=1538881838881 modifiers=80 code=36 char=36(6) false false
+--------------- 463 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 464 --------------
+  Sat Oct 06 23:10:38 EDT 2018
+ProcessKeyBinding 400 when=1538881838881 modifiers=80 code=0 char=36(6) false false
+--------------- 465 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839382 modifiers=80 code=36 char=36(6) false false
+--------------- 466 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 467 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839382 modifiers=80 code=0 char=36(6) false false
+--------------- 468 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839418 modifiers=80 code=36 char=36(6) false false
+--------------- 469 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 470 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839418 modifiers=80 code=0 char=36(6) false false
+--------------- 471 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839452 modifiers=80 code=36 char=36(6) false false
+--------------- 472 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 473 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839452 modifiers=80 code=0 char=36(6) false false
+--------------- 474 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839483 modifiers=80 code=36 char=36(6) false false
+--------------- 475 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 476 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839483 modifiers=80 code=0 char=36(6) false false
+--------------- 477 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839513 modifiers=80 code=36 char=36(6) false false
+--------------- 478 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 479 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839513 modifiers=80 code=0 char=36(6) false false
+--------------- 480 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839543 modifiers=80 code=36 char=36(6) false false
+--------------- 481 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 482 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839543 modifiers=80 code=0 char=36(6) false false
+--------------- 483 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839573 modifiers=80 code=36 char=36(6) false false
+--------------- 484 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 485 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839573 modifiers=80 code=0 char=36(6) false false
+--------------- 486 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839603 modifiers=80 code=36 char=36(6) false false
+--------------- 487 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 488 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839603 modifiers=80 code=0 char=36(6) false false
+--------------- 489 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839633 modifiers=80 code=36 char=36(6) false false
+--------------- 490 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 491 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839633 modifiers=80 code=0 char=36(6) false false
+--------------- 492 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839664 modifiers=80 code=36 char=36(6) false false
+--------------- 493 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 494 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839664 modifiers=80 code=0 char=36(6) false false
+--------------- 495 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839694 modifiers=80 code=36 char=36(6) false false
+--------------- 496 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 497 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839694 modifiers=80 code=0 char=36(6) false false
+--------------- 498 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839728 modifiers=80 code=36 char=36(6) false false
+--------------- 499 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 500 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839728 modifiers=80 code=0 char=36(6) false false
+--------------- 501 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839762 modifiers=80 code=36 char=36(6) false false
+--------------- 502 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 503 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839762 modifiers=80 code=0 char=36(6) false false
+--------------- 504 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839792 modifiers=80 code=36 char=36(6) false false
+--------------- 505 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 506 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839792 modifiers=80 code=0 char=36(6) false false
+--------------- 507 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839828 modifiers=80 code=36 char=36(6) false false
+--------------- 508 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 509 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839828 modifiers=80 code=0 char=36(6) false false
+--------------- 510 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839860 modifiers=80 code=36 char=36(6) false false
+--------------- 511 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 512 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839860 modifiers=80 code=0 char=36(6) false false
+--------------- 513 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839891 modifiers=80 code=36 char=36(6) false false
+--------------- 514 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 515 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839891 modifiers=80 code=0 char=36(6) false false
+--------------- 516 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839928 modifiers=80 code=36 char=36(6) false false
+--------------- 517 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 518 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839928 modifiers=80 code=0 char=36(6) false false
+--------------- 519 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839962 modifiers=80 code=36 char=36(6) false false
+--------------- 520 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 521 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839962 modifiers=80 code=0 char=36(6) false false
+--------------- 522 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 401 when=1538881839992 modifiers=80 code=36 char=36(6) false false
+--------------- 523 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 524 --------------
+  Sat Oct 06 23:10:39 EDT 2018
+ProcessKeyBinding 400 when=1538881839992 modifiers=80 code=0 char=36(6) false false
+--------------- 525 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 401 when=1538881840026 modifiers=80 code=36 char=36(6) false false
+--------------- 526 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 527 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 400 when=1538881840026 modifiers=80 code=0 char=36(6) false false
+--------------- 528 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 401 when=1538881840060 modifiers=80 code=36 char=36(6) false false
+--------------- 529 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 530 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 400 when=1538881840060 modifiers=80 code=0 char=36(6) false false
+--------------- 531 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 401 when=1538881840091 modifiers=80 code=36 char=36(6) false false
+--------------- 532 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 533 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 400 when=1538881840091 modifiers=80 code=0 char=36(6) false false
+--------------- 534 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 401 when=1538881840122 modifiers=80 code=36 char=36(6) false false
+--------------- 535 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 536 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 400 when=1538881840122 modifiers=80 code=0 char=36(6) false false
+--------------- 537 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 401 when=1538881840154 modifiers=80 code=36 char=36(6) false false
+--------------- 538 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 539 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 400 when=1538881840154 modifiers=80 code=0 char=36(6) false false
+--------------- 540 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 401 when=1538881840184 modifiers=80 code=36 char=36(6) false false
+--------------- 541 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 542 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 400 when=1538881840184 modifiers=80 code=0 char=36(6) false false
+--------------- 543 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 402 when=1538881840195 modifiers=80 code=36 char=36(6) false false
+--------------- 544 --------------
+  Sat Oct 06 23:10:40 EDT 2018
+ProcessKeyBinding 402 when=1538881840355 modifiers=0 code=11 char=ffff false false
+--------------- 545 --------------
+  Sat Oct 06 23:10:50 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | ALS: Simulate Current Cell
+--------------- 546 --------------
+  Sat Oct 06 23:10:57 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | Restore Stimuli from Disk...
+--------------- 547 --------------
+  Sat Oct 06 23:11:13 EDT 2018
+ProcessKeyBinding 401 when=1538881873218 modifiers=0 code=30 char=30(0) false false
+--------------- 548 --------------
+  Sat Oct 06 23:11:13 EDT 2018
+Menu Activated: Shortcuts | Wire to Poly
+--------------- 549 --------------
+  Sat Oct 06 23:11:13 EDT 2018
+ProcessKeyBinding 400 when=1538881873218 modifiers=0 code=0 char=30(0) false false
+--------------- 550 --------------
+  Sat Oct 06 23:11:13 EDT 2018
+ProcessKeyBinding 402 when=1538881873373 modifiers=0 code=30 char=30(0) false false
+--------------- 551 --------------
+  Sat Oct 06 23:11:14 EDT 2018
+ProcessKeyBinding 401 when=1538881874617 modifiers=80 code=11 char=ffff false false
+--------------- 552 --------------
+  Sat Oct 06 23:11:14 EDT 2018
+ProcessKeyBinding 401 when=1538881874935 modifiers=80 code=30 char=30(0) false false
+--------------- 553 --------------
+  Sat Oct 06 23:11:14 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 554 --------------
+  Sat Oct 06 23:11:14 EDT 2018
+ProcessKeyBinding 400 when=1538881874935 modifiers=80 code=0 char=30(0) false false
+--------------- 555 --------------
+  Sat Oct 06 23:11:15 EDT 2018
+ProcessKeyBinding 402 when=1538881875099 modifiers=80 code=30 char=30(0) false false
+--------------- 556 --------------
+  Sat Oct 06 23:11:15 EDT 2018
+ProcessKeyBinding 402 when=1538881875233 modifiers=0 code=11 char=ffff false false
+--------------- 557 --------------
+  Sat Oct 06 23:11:18 EDT 2018
+ProcessKeyBinding 401 when=1538881878716 modifiers=80 code=11 char=ffff false false
+--------------- 558 --------------
+  Sat Oct 06 23:11:18 EDT 2018
+ProcessKeyBinding 401 when=1538881878971 modifiers=80 code=36 char=36(6) false false
+--------------- 559 --------------
+  Sat Oct 06 23:11:18 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 560 --------------
+  Sat Oct 06 23:11:18 EDT 2018
+ProcessKeyBinding 400 when=1538881878971 modifiers=80 code=0 char=36(6) false false
+--------------- 561 --------------
+  Sat Oct 06 23:11:19 EDT 2018
+ProcessKeyBinding 402 when=1538881879158 modifiers=80 code=36 char=36(6) false false
+--------------- 562 --------------
+  Sat Oct 06 23:11:19 EDT 2018
+ProcessKeyBinding 402 when=1538881879163 modifiers=0 code=11 char=ffff false false
+--------------- 563 --------------
+  Sat Oct 06 23:11:25 EDT 2018
+Menu Activated: Edit | Modes | Edit | Toggle Pan
+--------------- 564 --------------
+  Sat Oct 06 23:11:32 EDT 2018
+ProcessKeyBinding 401 when=1538881892040 modifiers=80 code=11 char=ffff false false
+--------------- 565 --------------
+  Sat Oct 06 23:11:32 EDT 2018
+ProcessKeyBinding 401 when=1538881892787 modifiers=80 code=30 char=30(0) false false
+--------------- 566 --------------
+  Sat Oct 06 23:11:32 EDT 2018
+Menu Activated: Window | Zoom Out
+--------------- 567 --------------
+  Sat Oct 06 23:11:32 EDT 2018
+ProcessKeyBinding 400 when=1538881892787 modifiers=80 code=0 char=30(0) false false
+--------------- 568 --------------
+  Sat Oct 06 23:11:32 EDT 2018
+ProcessKeyBinding 402 when=1538881892898 modifiers=80 code=30 char=30(0) false false
+--------------- 569 --------------
+  Sat Oct 06 23:11:33 EDT 2018
+ProcessKeyBinding 402 when=1538881893386 modifiers=0 code=11 char=ffff false false
+--------------- 570 --------------
+  Sat Oct 06 23:11:36 EDT 2018
+ProcessKeyBinding 401 when=1538881896127 modifiers=80 code=11 char=ffff false false
+--------------- 571 --------------
+  Sat Oct 06 23:11:36 EDT 2018
+ProcessKeyBinding 401 when=1538881896323 modifiers=80 code=36 char=36(6) false false
+--------------- 572 --------------
+  Sat Oct 06 23:11:36 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 573 --------------
+  Sat Oct 06 23:11:36 EDT 2018
+ProcessKeyBinding 400 when=1538881896323 modifiers=80 code=0 char=36(6) false false
+--------------- 574 --------------
+  Sat Oct 06 23:11:36 EDT 2018
+ProcessKeyBinding 402 when=1538881896471 modifiers=80 code=36 char=36(6) false false
+--------------- 575 --------------
+  Sat Oct 06 23:11:36 EDT 2018
+ProcessKeyBinding 402 when=1538881896514 modifiers=0 code=11 char=ffff false false
+--------------- 576 --------------
+  Sat Oct 06 23:11:42 EDT 2018
+ProcessKeyBinding 401 when=1538881902050 modifiers=80 code=11 char=ffff false false
+--------------- 577 --------------
+  Sat Oct 06 23:11:42 EDT 2018
+ProcessKeyBinding 401 when=1538881902183 modifiers=80 code=36 char=36(6) false false
+--------------- 578 --------------
+  Sat Oct 06 23:11:42 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 579 --------------
+  Sat Oct 06 23:11:42 EDT 2018
+ProcessKeyBinding 400 when=1538881902183 modifiers=80 code=0 char=36(6) false false
+--------------- 580 --------------
+  Sat Oct 06 23:11:42 EDT 2018
+ProcessKeyBinding 402 when=1538881902369 modifiers=0 code=11 char=ffff false false
+--------------- 581 --------------
+  Sat Oct 06 23:11:42 EDT 2018
+ProcessKeyBinding 402 when=1538881902381 modifiers=0 code=36 char=36(6) false false
+--------------- 582 --------------
+  Sat Oct 06 23:11:49 EDT 2018
+Menu Activated: Edit | Modes | Movement | Half motion
+--------------- 583 --------------
+  Sat Oct 06 23:11:50 EDT 2018
+Menu Activated: Edit | Modes | Movement | Half motion
+--------------- 584 --------------
+  Sat Oct 06 23:11:51 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 585 --------------
+  Sat Oct 06 23:11:51 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 586 --------------
+  Sat Oct 06 23:11:51 EDT 2018
+Menu Activated: Edit | Modes | Movement | Full motion
+--------------- 587 --------------
+  Sat Oct 06 23:11:53 EDT 2018
+ProcessKeyBinding 401 when=1538881913068 modifiers=80 code=11 char=ffff false false
+--------------- 588 --------------
+  Sat Oct 06 23:11:53 EDT 2018
+ProcessKeyBinding 401 when=1538881913226 modifiers=80 code=39 char=39(9) false false
+--------------- 589 --------------
+  Sat Oct 06 23:11:53 EDT 2018
+Menu Activated: Window | Fill Window
+--------------- 590 --------------
+  Sat Oct 06 23:11:53 EDT 2018
+ProcessKeyBinding 400 when=1538881913226 modifiers=80 code=0 char=39(9) false false
+--------------- 591 --------------
+  Sat Oct 06 23:11:53 EDT 2018
+ProcessKeyBinding 402 when=1538881913348 modifiers=80 code=39 char=39(9) false false
+--------------- 592 --------------
+  Sat Oct 06 23:11:53 EDT 2018
+ProcessKeyBinding 402 when=1538881913646 modifiers=0 code=11 char=ffff false false
+--------------- 593 --------------
+  Sat Oct 06 23:11:57 EDT 2018
+ProcessKeyBinding 401 when=1538881917191 modifiers=80 code=11 char=ffff false false
+--------------- 594 --------------
+  Sat Oct 06 23:11:57 EDT 2018
+ProcessKeyBinding 401 when=1538881917266 modifiers=80 code=39 char=39(9) false false
+--------------- 595 --------------
+  Sat Oct 06 23:11:57 EDT 2018
+Menu Activated: Window | Fill Window
+--------------- 596 --------------
+  Sat Oct 06 23:11:57 EDT 2018
+ProcessKeyBinding 400 when=1538881917266 modifiers=80 code=0 char=39(9) false false
+--------------- 597 --------------
+  Sat Oct 06 23:11:57 EDT 2018
+ProcessKeyBinding 402 when=1538881917415 modifiers=80 code=39 char=39(9) false false
+--------------- 598 --------------
+  Sat Oct 06 23:11:57 EDT 2018
+ProcessKeyBinding 402 when=1538881917431 modifiers=0 code=11 char=ffff false false
+--------------- 599 --------------
+  Sat Oct 06 23:11:58 EDT 2018
+ProcessKeyBinding 401 when=1538881918953 modifiers=80 code=11 char=ffff false false
+--------------- 600 --------------
+  Sat Oct 06 23:11:59 EDT 2018
+ProcessKeyBinding 401 when=1538881919138 modifiers=80 code=39 char=39(9) false false
+--------------- 601 --------------
+  Sat Oct 06 23:11:59 EDT 2018
+Menu Activated: Window | Fill Window
+--------------- 602 --------------
+  Sat Oct 06 23:11:59 EDT 2018
+ProcessKeyBinding 400 when=1538881919138 modifiers=80 code=0 char=39(9) false false
+--------------- 603 --------------
+  Sat Oct 06 23:11:59 EDT 2018
+ProcessKeyBinding 402 when=1538881919352 modifiers=0 code=11 char=ffff false false
+--------------- 604 --------------
+  Sat Oct 06 23:11:59 EDT 2018
+ProcessKeyBinding 402 when=1538881919362 modifiers=0 code=39 char=39(9) false false
+--------------- 605 --------------
+  Sat Oct 06 23:12:01 EDT 2018
+ProcessKeyBinding 401 when=1538881921048 modifiers=80 code=11 char=ffff false false
+--------------- 606 --------------
+  Sat Oct 06 23:12:01 EDT 2018
+ProcessKeyBinding 401 when=1538881921155 modifiers=80 code=36 char=36(6) false false
+--------------- 607 --------------
+  Sat Oct 06 23:12:01 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 608 --------------
+  Sat Oct 06 23:12:01 EDT 2018
+ProcessKeyBinding 400 when=1538881921155 modifiers=80 code=0 char=36(6) false false
+--------------- 609 --------------
+  Sat Oct 06 23:12:01 EDT 2018
+ProcessKeyBinding 402 when=1538881921299 modifiers=80 code=36 char=36(6) false false
+--------------- 610 --------------
+  Sat Oct 06 23:12:01 EDT 2018
+ProcessKeyBinding 402 when=1538881921314 modifiers=0 code=11 char=ffff false false
+--------------- 611 --------------
+  Sat Oct 06 23:12:06 EDT 2018
+ProcessKeyBinding 401 when=1538881926939 modifiers=80 code=11 char=ffff false false
+--------------- 612 --------------
+  Sat Oct 06 23:12:07 EDT 2018
+ProcessKeyBinding 401 when=1538881927024 modifiers=80 code=36 char=36(6) false false
+--------------- 613 --------------
+  Sat Oct 06 23:12:07 EDT 2018
+Menu Activated: Window | Pan Right
+--------------- 614 --------------
+  Sat Oct 06 23:12:07 EDT 2018
+ProcessKeyBinding 400 when=1538881927024 modifiers=80 code=0 char=36(6) false false
+--------------- 615 --------------
+  Sat Oct 06 23:12:07 EDT 2018
+ProcessKeyBinding 402 when=1538881927167 modifiers=0 code=11 char=ffff false false
+--------------- 616 --------------
+  Sat Oct 06 23:12:07 EDT 2018
+ProcessKeyBinding 402 when=1538881927172 modifiers=0 code=36 char=36(6) false false
+--------------- 617 --------------
+  Sat Oct 06 23:12:12 EDT 2018
+ProcessKeyBinding 401 when=1538881932808 modifiers=80 code=11 char=ffff false false
+--------------- 618 --------------
+  Sat Oct 06 23:12:13 EDT 2018
+ProcessKeyBinding 401 when=1538881932999 modifiers=80 code=39 char=39(9) false false
+--------------- 619 --------------
+  Sat Oct 06 23:12:13 EDT 2018
+Menu Activated: Window | Fill Window
+--------------- 620 --------------
+  Sat Oct 06 23:12:13 EDT 2018
+ProcessKeyBinding 400 when=1538881932999 modifiers=80 code=0 char=39(9) false false
+--------------- 621 --------------
+  Sat Oct 06 23:12:13 EDT 2018
+ProcessKeyBinding 402 when=1538881933206 modifiers=80 code=39 char=39(9) false false
+--------------- 622 --------------
+  Sat Oct 06 23:12:13 EDT 2018
+ProcessKeyBinding 402 when=1538881933292 modifiers=0 code=11 char=ffff false false
+--------------- 623 --------------
+  Sat Oct 06 23:12:15 EDT 2018
+ProcessKeyBinding 401 when=1538881935025 modifiers=80 code=11 char=ffff false false
+--------------- 624 --------------
+  Sat Oct 06 23:12:15 EDT 2018
+ProcessKeyBinding 401 when=1538881935109 modifiers=80 code=37 char=37(7) false false
+--------------- 625 --------------
+  Sat Oct 06 23:12:15 EDT 2018
+Menu Activated: Window | Zoom In
+--------------- 626 --------------
+  Sat Oct 06 23:12:15 EDT 2018
+ProcessKeyBinding 400 when=1538881935109 modifiers=80 code=0 char=37(7) false false
+--------------- 627 --------------
+  Sat Oct 06 23:12:15 EDT 2018
+ProcessKeyBinding 402 when=1538881935274 modifiers=80 code=37 char=37(7) false false
+--------------- 628 --------------
+  Sat Oct 06 23:12:15 EDT 2018
+ProcessKeyBinding 402 when=1538881935296 modifiers=0 code=11 char=ffff false false
+--------------- 629 --------------
+  Sat Oct 06 23:12:18 EDT 2018
+ProcessKeyBinding 401 when=1538881938338 modifiers=80 code=11 char=ffff false false
+--------------- 630 --------------
+  Sat Oct 06 23:12:18 EDT 2018
+ProcessKeyBinding 401 when=1538881938434 modifiers=80 code=37 char=37(7) false false
+--------------- 631 --------------
+  Sat Oct 06 23:12:18 EDT 2018
+Menu Activated: Window | Zoom In
+--------------- 632 --------------
+  Sat Oct 06 23:12:18 EDT 2018
+ProcessKeyBinding 400 when=1538881938434 modifiers=80 code=0 char=37(7) false false
+--------------- 633 --------------
+  Sat Oct 06 23:12:18 EDT 2018
+ProcessKeyBinding 402 when=1538881938598 modifiers=0 code=11 char=ffff false false
+--------------- 634 --------------
+  Sat Oct 06 23:12:18 EDT 2018
+ProcessKeyBinding 402 when=1538881938606 modifiers=0 code=37 char=37(7) false false
+--------------- 635 --------------
+  Sat Oct 06 23:12:29 EDT 2018
+Menu Activated: Edit | Modes | Edit | Click/Zoom/Wire
+--------------- 636 --------------
+  Sat Oct 06 23:13:31 EDT 2018
+ProcessKeyBinding 401 when=1538882011867 modifiers=0 code=56 char=76(v) false false
+--------------- 637 --------------
+  Sat Oct 06 23:13:31 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | Set Signal High at Main Time
+--------------- 638 --------------
+  Sat Oct 06 23:13:31 EDT 2018
+ProcessKeyBinding 400 when=1538882011867 modifiers=0 code=0 char=76(v) false false
+--------------- 639 --------------
+  Sat Oct 06 23:13:31 EDT 2018
+ProcessKeyBinding 402 when=1538882011953 modifiers=0 code=56 char=76(v) false false
+--------------- 640 --------------
+  Sat Oct 06 23:13:54 EDT 2018
+ProcessKeyBinding 401 when=1538882034982 modifiers=0 code=56 char=76(v) false false
+--------------- 641 --------------
+  Sat Oct 06 23:13:54 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | Set Signal High at Main Time
+--------------- 642 --------------
+  Sat Oct 06 23:13:55 EDT 2018
+ProcessKeyBinding 400 when=1538882034982 modifiers=0 code=0 char=76(v) false false
+--------------- 643 --------------
+  Sat Oct 06 23:13:55 EDT 2018
+ProcessKeyBinding 402 when=1538882035125 modifiers=0 code=56 char=76(v) false false
+--------------- 644 --------------
+  Sat Oct 06 23:14:06 EDT 2018
+ProcessKeyBinding 401 when=1538882046116 modifiers=0 code=56 char=76(v) false false
+--------------- 645 --------------
+  Sat Oct 06 23:14:06 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | Set Signal High at Main Time
+--------------- 646 --------------
+  Sat Oct 06 23:14:06 EDT 2018
+ProcessKeyBinding 400 when=1538882046116 modifiers=0 code=0 char=76(v) false false
+--------------- 647 --------------
+  Sat Oct 06 23:14:06 EDT 2018
+ProcessKeyBinding 402 when=1538882046208 modifiers=0 code=56 char=76(v) false false
+--------------- 648 --------------
+  Sat Oct 06 23:15:09 EDT 2018
+ProcessKeyBinding 401 when=1538882109153 modifiers=0 code=56 char=76(v) false false
+--------------- 649 --------------
+  Sat Oct 06 23:15:09 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | Set Signal High at Main Time
+--------------- 650 --------------
+  Sat Oct 06 23:15:09 EDT 2018
+ProcessKeyBinding 400 when=1538882109153 modifiers=0 code=0 char=76(v) false false
+--------------- 651 --------------
+  Sat Oct 06 23:15:42 EDT 2018
+ProcessKeyBinding 401 when=1538882142238 modifiers=0 code=56 char=76(v) false false
+--------------- 652 --------------
+  Sat Oct 06 23:15:42 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | Set Signal High at Main Time
+--------------- 653 --------------
+  Sat Oct 06 23:15:42 EDT 2018
+ProcessKeyBinding 400 when=1538882142238 modifiers=0 code=0 char=76(v) false false
+--------------- 654 --------------
+  Sat Oct 06 23:15:48 EDT 2018
+java.lang.NumberFormatException: For input string: "0A"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Long.parseLong(Long.java:692)
+	at java.base/java.lang.Long.parseLong(Long.java:817)
+	at com.sun.electric.tool.simulation.als.ALS.makeThemThus(als.java:920)
+	at com.sun.electric.tool.simulation.als.ALS.setSignalHigh(als.java:465)
+	at com.sun.electric.tool.simulation.Simulation.setSignalHigh(Simulation.java:413)
+	at com.sun.electric.tool.user.menus.ToolMenu$13.run(ToolMenu.java:202)
+	at com.sun.electric.tool.user.menus.EMenuItem.actionPerformed(EMenuItem.java:326)
+	at com.sun.electric.tool.user.ui.KeyBindings.actionPerformed(KeyBindings.java:162)
+	at com.sun.electric.tool.user.KeyBindingManager.processKeyEvent(KeyBindingManager.java:425)
+	at com.sun.electric.tool.user.menus.EMenuBar$Instance.processKeyBinding(EMenuBar.java:311)
+	at java.desktop/javax.swing.KeyboardManager.fireBinding(KeyboardManager.java:311)
+	at java.desktop/javax.swing.KeyboardManager.fireKeyboardAction(KeyboardManager.java:297)
+	at java.desktop/javax.swing.JComponent.processKeyBindingsForAllComponents(JComponent.java:2993)
+	at java.desktop/javax.swing.JComponent.processKeyBindings(JComponent.java:2985)
+	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2862)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6366)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2261)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4966)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2319)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4798)
+	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1950)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:871)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1140)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1010)
+	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:836)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4847)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2319)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4798)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue.access$600(EventQueue.java:97)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at com.sun.electric.tool.user.UserInterfaceMain$EventProcessor.dispatchEvent(UserInterfaceMain.java:843)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+--------------- 655 --------------
+  Sat Oct 06 23:16:13 EDT 2018
+ProcessKeyBinding 401 when=1538882173743 modifiers=0 code=47 char=67(g) false false
+--------------- 656 --------------
+  Sat Oct 06 23:16:13 EDT 2018
+Menu Activated: Tool | Simulation (Built-in) | Set Signal Low at Main Time
+--------------- 657 --------------
+  Sat Oct 06 23:16:13 EDT 2018
+ProcessKeyBinding 400 when=1538882173743 modifiers=0 code=0 char=67(g) false false
+--------------- 658 --------------
+  Sat Oct 06 23:16:13 EDT 2018
+ProcessKeyBinding 402 when=1538882173839 modifiers=0 code=47 char=67(g) false false
+--------------- 659 --------------
+  Mon Oct 08 12:07:10 EDT 2018
+ProcessKeyBinding 402 when=1538894279924 modifiers=0 code=a char=a false false
