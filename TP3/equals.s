@@ -2,53 +2,87 @@
 
 matrix_equals_asm:
         push %ebp                        /* Save old base pointer */
-        mov %esp, %ebp                   /* Set ebp to current esp */
+        mov %esp, %ebp                  /* Set ebp to current esp */
 
-        /* Write your solution here */
-        push %esi
-        push %ecx
-        push %edx
-        push %ebx
-        push %edi
-        movl 16(%ebp), %esi             /* matorder*/
-        movl $0, %ebx                   /* c = 0 */
-boucle1:
-        cmpl %ebx, %esi                 /* comparer matorder a 0 */
-        jge arret_boucle1
-        movl $0, %edi                   /* r = 0 */
-boucle2:
-        cmpl %edi, %esi                 /* comparer matorder a 0 */
-        jge arret_boucle2
-        mov %ebx, %eax                  
-        imul %esi, %eax                 /* r * matorder a placer dans eax */
-        addl %ebx, %eax                 /* addition c + ( r * matorder ) */
-        movl 8(%ebp), %edx              /*inmatdata1*/
-        movl (%edx, %eax, 4), %edx      
-        movl 12(%ebp), %ecx             /* inmatdata2*/
-        movl (%ecx, %eax, 4), %ecx
-        cmp %ecx, %edx
-        je if_equal
-        mov $0, %eax
-        jmp end
+       #saving live registers
+        push %esi 
+        push %edi 
+        push %ebx 
 
-if_equal:
-         incl %edi                      /* ++c*/
-         jmp boucle2
+        #moving matorder into ebx
+        movl 16(%ebp),%ebx
+        #assigning 0 to r found in %ecx
+        movl $0, %ecx
 
-arret_boucle2:
-        incl %ebx                       /* ++r*/
-        jmp boucle1
+.L1 : 
+        #compare r and matorder
+        cmp %ebx, %ecx
+        #if matorder >= r jump to the break
+        jge .BREAK1
 
-arret_boucle1:
-        movl $1, %eax                   /* retourner 1*/
+        #if the condition is respected continue
+        #assigning 0 to c found in %edi 
+        movl $0, %edi
 
-end:
+.L2 : 
+        #compare c and matorder
+        cmp %ebx, %edi
+        #if matorder >= c jump to the break
+        jge .BREAK2
+
+        #if the condition is respected continue
+        #place ecx(r) in eax
+        #moving into a new register because ecx is saved for incrementation
+        mov %ecx, %eax
+        #multiply eax with ebx(contains matorder)
+        mul %ebx
+        #add edi into eax(add the content of edi and eax)
+        #edi + eax = c+(r*matorder)
+        addl %edi, %eax
+        #using esi to store the adress of inmatdata1
+        movl 8(%ebp), %esi
+        #move inmatdata1[c + r * matorder] into esi
+        movl (%esi,%eax,4), %esi 
+        #using edx to store the adress of inmatdata2
+        movl 12(%ebp), %edx 
+        #move inmatdata2[c + r * matorder] into edx
+        movl (%edx,%eax,4), %edx 
+        
+        #compare edx and esi : (esi - edx)
+        cmp %edx, %esi 
+        #if comparison is equal to 0 (in other words is equal), jump
+        je .EQUALITY 
+
+        #if comparison are not equal 
+        #return 0 (eax)
+        movl $0, %eax 
+        #go to the end of code 
+        jmp END 
+
+.EQUALITY : 
+        #getting out of second loop and increment c
+        incl %edi #edi++
+        #start second loop again 
+        jmp .L2
+
+.BREAK2 : 
+        #not necessary to return 1 in this break
+        #it is going to return in break1
+        #increment r 
+        incl %ecx #ecx++
+        #jump back to first loop 
+        jmp .L1
+   
+.BREAK1 : 
+        #eax, register for return
+        #return 1 
+        movl $1, %eax 
+END :
         pop %ebx
         pop %edi
-        pop %esi
-        pop %edx
-        pop %ecx
+        pop %esi 
 
-        leave          /* Restore ebp and esp */
-        ret            /* Return to the caller */
-        
+        #restore ebp and esp
+        leave  
+        #return to the caller 
+        ret
